@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <style>
+      form {
+        margin-top: 100px;
+        margin-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table align="center" border="1">
+        <tr>
+          <td>Enter Name:</td>
+          <td><input type="text" value="" name="firstname" /><br /></td>
+        </tr>
+        <tr>
+          <td>Enter Gender:</td>
+          <td>
+            <input type="radio" id="Male" name="gender" />
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" />
+            <label for="Female">Female</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Enter email id:</td>
+          <td><input type="email" value="" name="email" /><br /></td>
+        </tr>
+        <tr>
+          <td>Enter mobile no:</td>
+          <td><input type="number" value="" name="number" /><br /></td>
+        </tr>
+        <tr>
+          <td>Enter address:</td>
+          <td><input type="text" name="add" /><br /></td>
+        </tr>
+        <tr>
+          <td>Feedback</td>
+          <td><input type="text" name="id" /><br /></td>
+        </tr>
+        <tr>
+          <td>How was your experience</td>
+          <td>
+            <input type="checkbox" id="happy" name="check" />
+            <label for="happy">Good</label><br />
+
+            <input type="checkbox" id="sad" name="check1" />
+            <label for="sad">Bad</label><br />
+
+            <input type="checkbox" id="moderate" name="check2" />
+            <label for="moderate">Moderate</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Rate us</td>
+          <td>
+            <input type="radio" name="five" id="five" />
+            <label for="five">Five</label><br />
+            <input type="radio" name="five" id="four" />
+            <label for="four">Four</label><br />
+            <input type="radio" name="five" id="three" />
+            <label for="three">Three</label><br />
+            <input type="radio" name="five" id="two" />
+            <label for="two">Two</label><br />
+            <input type="radio" name="five" id="onee" />
+            <label for="oncee">One</label><br />
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <input
+              type="button"
+              onclick="alert('Feedback filled')"
+              value="Submit"
+            />
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
